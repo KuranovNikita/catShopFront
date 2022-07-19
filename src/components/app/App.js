@@ -16,6 +16,7 @@ const App = () => {
   useEffect(() => {
     if (localStorage.getItem('aut') === '1') {
       const timerIdEffect = setInterval(() => onRequest(true), 1000);
+      setOnline(localStorage.getItem('login'), false)
     }
     // const timerIdEffect = setInterval(() => onRequest(true), 1000);
     // if (aut) {
