@@ -1,0 +1,17 @@
+.statisticPage {
+    padding: 30px 40px;
+    &__header {
+        font-size: 26px;
+        line-height: 53px;
+        font-weight: 500;
+        color: #5b6a78;
+        font-family: Arial, serif;
+    }
+    &__info {
+        font-size: 20px;
+        line-height: 42px;
+        font-weight: 500;
+        color: #5b6a78;
+        font-family: Arial, serif;
+    }
+}

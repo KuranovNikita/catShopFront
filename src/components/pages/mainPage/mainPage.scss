@@ -1,0 +1,44 @@
+.mainPage {
+    padding: 40px;
+    width: 100%;
+    overflow-y:auto;
+    &__header {
+        font-size: 26px;
+        text-align: center;
+        line-height: 53px;
+        font-weight: 500;
+        color: #5b6a78;
+        font-family: Arial, serif;
+    }
+    &__info {
+        font-size: 20px;
+        line-height: 42px;
+        font-weight: 500;
+        color: #5b6a78;
+        font-family: Arial, serif;
+        margin-bottom: 5px;
+    }
+    &__img {
+        border-radius: 14px;
+    }
+    &__list {
+        font-size: 20px;
+        line-height: 42px;
+        font-weight: 500;
+        color: #5b6a78;
+        font-family: Arial, serif;
+    }
+}
+.mainPage::-webkit-scrollbar {
+    width: 0.5em;
+    border-radius: 5px;
+}
+.mainPage::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 6px #f8fbff;
+     border-radius: 5px;
+}
+    
+.mainPage::-webkit-scrollbar-thumb {
+    background-color: #9fa9bd;
+    border-radius: 5px;
+}

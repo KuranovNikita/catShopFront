@@ -1,0 +1,59 @@
+.clientList__preview {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border-bottom: 2px solid #d2dce4;
+    min-width: 300px;
+    &:hover {
+        background-color: #f3fcff;
+        cursor: pointer;
+    }
+    &__avatar {
+        img {
+            height: 50px;
+        }
+        margin-right: 10px;  
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    } 
+    &__wrapperMessage {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        img {
+            height: 22px;
+            margin-right: 4px;
+        }
+    } 
+    &__info {  
+        &__name {
+            font-size: 18px;
+            line-height: 31px;
+            font-weight: 700;
+            color: #5b6a78;
+            font-family: Arial, serif;
+        }
+        &__newMessages {
+            font-size: 15px;
+            font-weight: 700;
+            color: #ffffff;
+            background-color: #DC143C;
+            font-family: Arial, serif;
+            margin-left: 10px;
+            padding: 3px;
+            border-radius: 30%;
+        }
+        &__preview {
+            font-size: 16px;
+            font-weight: 500;
+            color: #92a0ad;
+            font-family: Arial, serif;
+        }
+    }
+}

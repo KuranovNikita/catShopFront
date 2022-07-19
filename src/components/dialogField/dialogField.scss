@@ -1,0 +1,21 @@
+.dialog__field {
+    padding: 3px 80px;
+    overflow-y:auto;
+    height: 65vh;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-end;
+}
+.dialog__field::-webkit-scrollbar {
+    width: 0.5em;
+    border-radius: 5px;
+}
+.dialog__field::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 6px #f8fbff;
+     border-radius: 5px;
+}
+    
+.dialog__field::-webkit-scrollbar-thumb {
+    background-color: #9fa9bd;
+    border-radius: 5px;
+}

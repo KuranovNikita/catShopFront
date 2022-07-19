@@ -1,0 +1,66 @@
+.infoBar {
+    height: 9vh;
+    background-color: #313b44;
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+    &__name {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 300;
+        letter-spacing: -0.02em;
+        color: #d7e2ea;
+        margin-left: 30px;
+        margin-right: 50px;
+        width: 180px;
+        font-family: Arial, serif;
+    }
+    &__toogleBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 40px;
+        &__text {
+            font-size: 22px;
+            line-height: 1.2;
+            font-weight: 300;
+            letter-spacing: -0.02em;
+            color: #d7e2ea;
+            font-family: Arial, serif;
+        }
+    }
+}
+
+.infoBar__toogleBlock__toogle {
+    // display: inline-block;
+    width: 54px; /* ширина */
+    height: 30px; /* высота */
+    border-radius: 19px; /* радиус скругления */
+    background: #960018; /* цвет фона */
+    z-index: 0;
+    margin: 15px auto 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms; /* анимация */
+  }
+  .infoBar__toogleBlock__toogle::after {
+    content: "";
+    height: 24px; /* высота кнопки */
+    width: 24px; /* ширина кнопки */
+    border-radius: 19px;
+    background: #fff; /* цвет кнопки */
+    top: 3px; /* положение кнопки по вертикали относительно основы */
+    left: 2px; /* положение кнопки по горизонтали относительно основы */
+    transition-duration: 300ms; /* анимация */
+    position: absolute;
+    z-index: 1;
+  }
+  .switch-on {
+    background: #40826d;
+  }
+  .switch-on::after {
+    left: 28px;
+  }

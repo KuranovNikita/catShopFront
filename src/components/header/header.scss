@@ -1,0 +1,102 @@
+.header {
+    height: 9vh;
+    background-color: #0988ea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__company {
+        &__text {
+            margin-left: 30px;
+            font-size: 36px;
+            line-height: 1.2;
+            font-weight: 300;
+            letter-spacing: -0.02em;
+            color: #d7e2ea;
+            font-family: Arial, serif;
+        }
+    }
+    &__emblem {
+        // height: 50px;
+    }
+    &__name {
+        position: relative;
+        display: inline-block;
+        background-color: #0263ad;
+        
+
+        height: 100%;
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            cursor: pointer;
+            padding-right: 30px;
+            padding-left: 30px;
+            height: 100%;
+        }
+        &__img {
+            padding-top: 10px;
+            height: 60px;
+            display: block;
+            img {
+                display: block;
+            }
+        }
+        &__info {
+            padding-top: 10px;
+            margin-left: 20px;
+        } 
+        // &__text {
+        //     margin-left: 20px;
+        //     font-size: 16px;
+        //     line-height: 33px;
+        //     font-weight: 500;
+        //     color: #ffffff;
+        //     font-family: Arial, serif;
+        // }
+        &__menu {
+            display: none;
+            position: absolute;
+            background-color: #0263ad;
+            // margin-top: 15px;
+            width: 100%;
+            font-size: 26px;
+            line-height: 53px;
+            font-weight: 500;
+            color: #ffffff;
+            font-family: Arial, serif;
+            border-top: 1px solid #ffffff;
+            &__text {
+                margin-top: 20px;
+                font-size: 16px;
+                line-height: 33px;
+                font-weight: 500;
+                color: #ffffff;
+                text-align: center;
+                font-family: Arial, serif;
+            }
+            &__btn {
+                display: block;
+                margin: 20px auto;
+                font-size: 20px;
+                line-height: 33px;
+                font-weight: 500;
+                background-color: #313b44;
+                color: #ffffff;
+                font-family: Arial, serif;
+                border-radius:8px;
+                width: 150px;
+                height: 40px;
+                border: 1px solid #313b44;
+                cursor: pointer;
+                &:hover {
+                    background-color: #FFFFFF;
+                    color:#313b44; 
+                }
+            }
+        }
+        &:hover .header__name__menu {
+            display: block;
+        }
+    }
+}

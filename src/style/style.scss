@@ -1,0 +1,27 @@
+
+body {
+    margin: 0;
+}
+
+
+.workspace {
+    display: flex;
+    justify-content: space-between;
+    height: 82vh;
+    &__wrapper {
+        // flex-grow: 11;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+}
+
+.loading {
+    font-size: 15px;
+    font-family: Arial, serif;
+}
+.redx {
+    background-color: red;
+}
